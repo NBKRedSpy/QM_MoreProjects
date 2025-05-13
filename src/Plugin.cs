@@ -1,5 +1,4 @@
-﻿using HarmonyLib;
-using MGSC;
+﻿using MGSC;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -29,9 +28,6 @@ namespace MoreProjects
 
             ChangeDefaults(Config.ProjectCountMultiplier);
             ChangeUpgrades(Config.ProjectCountMultiplier);
-
-
-            new Harmony("NBKRedSpy_" + ConfigDirectories.ModAssemblyName).PatchAll();
         }
 
 
