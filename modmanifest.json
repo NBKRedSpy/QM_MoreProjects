@@ -1,0 +1,7 @@
+{
+  "UniqueModName": "NBKRedSpy_MoreProjects",
+  "Assemblies": [
+    "MoreProjects.dll"
+  ],
+  "Dependencies": []
+}
