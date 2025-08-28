@@ -1,4 +1,5 @@
 ﻿using MGSC;
+using MoreProjects.Mcm;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -19,12 +20,17 @@ namespace MoreProjects
 
         public static Logger Logger = new Logger();
 
+        private static McmConfiguration McmConfiguration;
+
         [Hook(ModHookType.AfterConfigsLoaded)]
         public static void AfterConfig(IModContext context)
         {
 
             Directory.CreateDirectory(ConfigDirectories.ModPersistenceFolder);
             Config = ModConfig.LoadConfig(ConfigDirectories.ConfigPath);
+
+            McmConfiguration = new McmConfiguration(Config, Plugin.Logger);
+            McmConfiguration.TryConfigure();
 
             ChangeDefaults(Config.ProjectCountMultiplier);
             ChangeUpgrades(Config.ProjectCountMultiplier);

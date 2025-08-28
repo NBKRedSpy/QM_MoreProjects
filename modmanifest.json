@@ -3,5 +3,10 @@
   "Assemblies": [
     "MoreProjects.dll"
   ],
-  "Dependencies": []
+  "Dependencies": [],
+  "SteamTags": [
+    "0.9.5",
+    "0.9.1",
+    "Gameplay Tweaks"
+  ]
 }

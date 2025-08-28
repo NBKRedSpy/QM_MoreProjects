@@ -13,6 +13,8 @@ This mod is safe to add and remove at any time.  If the mod is removed, any proj
 
 [h1]Configuration[/h1]
 
+This mod supports the Mod Configuration Manager mod and the settings can either be configured in the Mods screen, or directly in the config file.
+
 The configuration file will be created on the first game run and can be found at [i]%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\MoreProjects\config.json[/i].
 [table]
 [tr]
@@ -33,6 +35,11 @@ The configuration file will be created on the first game run and can be found at
 [/tr]
 [/table]
 
+[h1]Credits[/h1]
+[list]
+[*]Special thanks to Crynano for his excellent Mod Configuration Menu.
+[/list]
+
 [h1]Buy Me a Coffee[/h1]
 
 If you enjoy my mods and want to buy me a coffee, check out my [url=https://ko-fi.com/nbkredspy71915]Ko-Fi[/url] page.
@@ -41,3 +48,10 @@ Thanks!
 [h1]Source Code[/h1]
 
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_MoreProjects
+
+[h1]Change Log[/h1]
+
+[h2]1.1.0[/h2]
+[list]
+[*]MCM Integration
+[/list]
