@@ -51,6 +51,11 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_MoreProjec
 
 [h1]Change Log[/h1]
 
+[h2]1.1.1[/h2]
+[list]
+[*]Fix for MCM not being bypassed due to Mono specific bug.
+[/list]
+
 [h2]1.1.0[/h2]
 [list]
 [*]MCM Integration

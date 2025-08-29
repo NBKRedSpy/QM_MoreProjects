@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace MoreProjects.Mcm
 {
-    internal class McmConfiguration : McmConfigurationBase<ModConfig>
+    internal class McmConfiguration : McmConfigurationBase
     {
 
         public McmConfiguration(ModConfig config, Logger logger) : base (config, logger) { }
